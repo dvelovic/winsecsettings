@@ -1,4 +1,4 @@
-main
+
 
 
 function main
@@ -9,7 +9,7 @@ function main
     $finalHash += Get-SCHANNELInfo
     #$finalHash+= Get-MacAddressTypeInfo
 
-    $finalHash | convertto-Json -depth 3 | Out-File c:\temp\out.json
+   # $finalHash | convertto-Json -depth 3 | Out-File c:\temp\out.json
 
 }
 
@@ -369,3 +369,4 @@ function Get-SCHANNELInfo
 
 
 }
+main
